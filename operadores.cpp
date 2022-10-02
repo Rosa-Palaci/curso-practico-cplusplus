@@ -2,10 +2,11 @@
 using namespace std;
 
 int main(){
-    int valorA = 2;
-    int valorB = 2;
-    cout << valorA + valorB <<endl;
-    valorA = valorB - 100;
-    cout << valorA << endl;
+    float MinCord = -0.94234;
+    float MaxCord = MinCord *2;
+    cout << MaxCord <<endl;
+    MaxCord = MaxCord * -1;
+    cout << MaxCord <<endl;
+
     return 0;
 }
