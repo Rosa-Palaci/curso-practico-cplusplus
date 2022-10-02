@@ -2,11 +2,12 @@
 using namespace std;
 
 int main(){
-    float MinCord = -0.94234;
-    float MaxCord = MinCord *2;
-    cout << MaxCord <<endl;
-    MaxCord = MaxCord * -1;
-    cout << MaxCord <<endl;
+    int Vidas = 3;
+    cout << Vidas << endl;
+    for(int i = 0; i < 3; i++){
+        Vidas = Vidas -1;
+        cout << Vidas << endl;
+    }
 
     return 0;
 }
