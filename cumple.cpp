@@ -3,10 +3,9 @@ using namespace std; // para usar cout
 
 int main(){
     
-    bool IsGameOver = false;
-    IsGameOver = true;
-    cout << "El jugador ya perdio?" <<endl;
-    cout << IsGameOver << endl;
+    // La regla es tipo de dato + nombre de la variable + asignación de un valor
+    char MiInicial = 'r';
+    cout << MiInicial;
 
     return 0;
 }
