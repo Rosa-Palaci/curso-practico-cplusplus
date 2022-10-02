@@ -2,11 +2,12 @@
 using namespace std; // para usar cout
 
 int main(){
-    int Month = 12;
-    int Day = 4;
-    Day = Month;
-    cout << Month <<endl;    
-    cout << Day <<endl;
+    float pi = 3.1416;
+    cout << pi << endl;
+    bool IsGameOver = false;
+    IsGameOver = true;
+    cout << "El jugador ya perdio?" <<endl;
+    cout << IsGameOver << endl;
 
     return 0;
 }
